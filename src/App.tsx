@@ -6,7 +6,7 @@ import {
 import { useAppDispatch, useAppSelector } from "./redux/reduxHooks/hooks";
 
 function App() {
-  const { count } = useAppSelector((state) => state.count);
+  const { count } = useAppSelector((state) => state.counter);
   const dispatch = useAppDispatch();
 
   return (
